@@ -2,7 +2,7 @@
 import scrapy
 from scrapy_splash import SplashFormRequest
 
-from patent.items import ZlItem
+from patent.items import ZlItem, DownurlItem
 
 
 class ZlSpider(scrapy.Spider):
